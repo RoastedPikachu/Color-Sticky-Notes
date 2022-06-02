@@ -24,12 +24,12 @@ document.querySelector('.desk-textarea > p').addEventListener('click', () => {
     <div class='desk-sticky-el' id=${id}>
       <p>${txt}</p>
     </div>
-  </div>`
+  </div>`;
   } else if (i != 0 && i % 4 != 0) {
     document.querySelector(`#${idRow}`).innerHTML+=`
     <div class='desk-sticky-el' id=${id}>
       <p>${txt}</p>
-    </div>`
+    </div>`;
   }
 
   document.querySelector('.desk-textarea > textarea').value = '';
