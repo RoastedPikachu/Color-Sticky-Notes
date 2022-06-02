@@ -58,13 +58,18 @@ button:active {
   background: #ffcf75;
 }
 .desk-container {
+  width: 90%;
+  height: 650px;
+  margin: 50px 5%;
+}
+
+.desk-container-row {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
-  width: 90%;
-  height: 650px;
-  margin: 50px 5%;
+  width: 100%;
+  height: 310px;
 }
 
 .desk-sticky-el {
