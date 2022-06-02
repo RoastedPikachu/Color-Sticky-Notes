@@ -29,6 +29,11 @@ header {
   margin: 20px 5%;
 }
 
+img {
+  width: 30px;
+  height: 30px;
+}
+
 h1 {
   width: 75%;
   margin-left: 10px;
