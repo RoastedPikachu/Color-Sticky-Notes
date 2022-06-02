@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Neucha&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  width: 100%;  
+  background: #ffe9c0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: 50px 0%;
+  font-family: 'Caveat', cursive;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  height: 50px;
+  margin: 20px 5%;
+}
+
+h1 {
+  width: 75%;
+  margin-left: 10px;
+  font-family: 'Neucha', cursive;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: 5px solid #311a00;
+  background: #ffe9c0;
+  cursor: pointer;
+  transition: 500ms ease;
+  font-family: 'Neucha', cursive;
+}
+button:hover {
+  background: #ffd88f;
+}
+button:active {
+  background: #ffcf75;
+}
+.desk-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 650px;
+  margin: 50px 5%;
+}
+
+.desk-sticky-el {
+  width: 22%;
+  height: 270px;
+  margin-left: 30px;
+  font-size: 26px;
+  box-shadow: 0px 8px 15px #000000;
+  word-wrap: break-word;
+}
+.desk-sticky-el > p {
+  width: 80%;
+  height: 260px;
+  padding-top: 20px;
+  padding-left: 10%;
+}
+
+.desk-textarea {
+  display: none;
+  position: fixed;
+  width: 350px;
+  height: 350px;
+  margin: 110px 39%;
+  background: #ffffff;
+  z-index: 10;
+}
+.desk-textarea > textarea {
+  width: 80%;
+  height: 75%;
+  margin: 2.5% 10%;
+  font-size: 24px;
+  border: none;
+  resize: none;
+  font-family: 'Neucha', cursive;
+}
+
+.desk-close {
+  width: 20px; 
+  height: 20px;
+  margin: 2.5% 90%;
+  border-radius: 50px;
+  border: 2px solid #7c7c7c;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+.desk-close:hover {
+  border-color: #a9a9a9;
+}
+.desk-close > p {
+  margin-top: 2px;
+  text-align: center;
+  color: #7c7c7c;
+}
+.desk-textarea > p {
+  margin: -15px 90%;
+  font-size: 26px;
+  color: #7c7c7c;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+.desk-textarea > p:hover {
+  color: #a2a2a2;
+}
